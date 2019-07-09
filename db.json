@@ -12,5 +12,53 @@
       "id":3,
       "name":"Nestlé"
     }
+  ],
+  "orders":[
+    {
+      "id":1,
+      "supplier":1,
+      "date":"07/07:19"
+    },
+    {
+      "id":2,
+      "supplier":2,
+      "date":"01/07:19"
+    },
+    {
+      "id":3,
+      "supplier":3,
+      "date":"10/07:19"
+    }
+  ],
+  "articles":[
+    {
+      "id":1,
+      "name":"Ketchup"
+    },
+    {
+      "id":2,
+      "name":"Jean 501"
+    },
+    {
+      "id":3,
+      "name":"Tablette chocolat"
+    }
+  ],
+  "orderLines":[
+    {
+      "id":1,
+      "order":1,
+      "article":1
+    },
+    {
+      "id":2,
+      "order":2,
+      "article":2
+    },
+    {
+      "id":3,
+      "order":3,
+      "article":3
+    }
   ]
 }
