@@ -17,17 +17,20 @@
     {
       "id":1,
       "supplierId":1,
-      "date":"07/07/19"
+      "date":"07/07/19",
+      "status":1
     },
     {
       "id":2,
       "supplierId":2,
-      "date":"01/07/19"
+      "date":"01/07/19",
+      "status":1
     },
     {
       "id":3,
       "supplierId":3,
-      "date":"10/07/19"
+      "date":"10/07/19",
+      "status":2
     }
   ],
   "articles":[
@@ -52,22 +55,26 @@
     {
       "id":1,
       "orderId":1,
-      "articleId":1
+      "articleId":1,
+      "qty":5
     },
     {
       "id":2,
       "orderId":2,
-      "articleId":2
+      "articleId":2,
+      "qty":12
     },
     {
       "id":3,
       "orderId":3,
-      "articleId":3
+      "articleId":3,
+      "qty":10
     },
     {
       "id":4,
       "orderId":1,
-      "articleId":4
+      "articleId":4,
+      "qty":8
     }
   ]
 }
