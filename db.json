@@ -16,17 +16,17 @@
   "orders":[
     {
       "id":1,
-      "supplier":1,
+      "supplierId":1,
       "date":"07/07/19"
     },
     {
       "id":2,
-      "supplier":2,
+      "supplierId":2,
       "date":"01/07/19"
     },
     {
       "id":3,
-      "supplier":3,
+      "supplierId":3,
       "date":"10/07/19"
     }
   ],
@@ -51,23 +51,23 @@
   "orderLines":[
     {
       "id":1,
-      "order":1,
-      "article":1
+      "orderId":1,
+      "articleId":1
     },
     {
       "id":2,
-      "order":2,
-      "article":2
+      "orderId":2,
+      "articleId":2
     },
     {
       "id":3,
-      "order":3,
-      "article":3
+      "orderId":3,
+      "articleId":3
     },
     {
       "id":4,
-      "order":1,
-      "article":4
+      "orderId":1,
+      "articleId":4
     }
   ]
 }
